@@ -1,0 +1,210 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" type="text/css " href="dashboard.css"> </link>  
+    <link rel="stylesheet" type="text/css " href="livedata.css"> </link>  
+</head>
+<body class="background-dashboard">
+    
+        <div class="navigation-bar-dashboard-div">
+            <ul class="navigation-bar-dashboard">
+                    <li><a href="#">CONTACT</a> </li>
+                    <li><a href="#">ABOUT US</a> </li>
+                    <li><a href="dasboard.html">DASHBOARD</a> </li>
+                    <li class="home"><a href="index.html">HOME</a> </li>
+    
+               
+              
+                
+               
+    
+    
+    
+            </ul>
+        </div> 
+      
+
+            <ul class="navigation-bar-dasboard-vertical">
+                    <li><a class ="livedata"href="#">LIVE DATA</a> </li><!--class is added to live data to make it particular colour laways-->
+                    <li><a href="database.html">DATABASE</a> </li>
+                    <li><a href="#">PROCESSED IMAGES</a> </li>
+                    <li><a href="#">ACTUATOR STATUS</a> </li>
+                    <li><a href="dropbox.html">SEQUENCE EDITOR</a> </li>
+                    <li><a href="video monitoring.html">LIVE CAM</a> </li>
+
+
+
+
+
+            </ul>
+            </div>
+<div class="kova">           
+<div class=live-data-header>
+    <h1> LIVE DATA</h1>
+</div>        
+
+    <div class="center">
+        <div class="block1">
+            
+            <h1>IN AIR</h1>
+            <br>
+                <h1 class="subb1">TEMPERATURE</h1>
+                         
+                <p id="temp-air"> 35 </p>
+                <br>          
+                <h1 class="subb1">HUMIDITY</h1>
+                
+                <p id="hum-air">   45  </p>
+
+
+        </div>
+ </div>
+
+ <div class="center1">
+    <div class="block1">
+            <h1>IN SOIL</h1>
+        <br>
+            <h1 class="subb1">TEMPERATURE</h1>
+                     
+            <p id="temp-soil"> 30  </p>
+            <br>          
+           <!-- <h1 class="subb1">HUMIDITY</h1> -->
+            
+            <p id="hum-soil">   </p>
+
+
+    </div>
+</div>
+
+ 
+ <div class="center2">
+    <div class="block1">
+        <br>
+            <h1 class="subb1">WATER CONTENT OF THE SOIL</h1>
+                     
+            <p id="water-soil"> 40   </p>
+            <br>          
+            <h1 class="subb1">WATER SOURCE LEVEl</h1>
+        
+            <p id="water-source">  20 </p>
+
+
+    </div>
+</div>    
+
+    <div class="center3">
+        <div class="block1">
+            <br>
+                <h1 class="subb1">TDS AMOUNT</h1>
+                         
+                <p id="tds">   46 </p>
+                <br>          
+               <!-- <h1 class="subb1">HUMIDITY</h1>-->
+                
+                    <!--<p id="hum">   </p> --><!---->
+
+
+        </div>
+    </div>
+
+<div class="center4">
+    <div class="block1">
+        <br>
+            <h1 class="subb1">PH LEVEL OF WATER</h1>
+                     
+            <p id="ph-water">   </p>
+            <br>          
+            <h1 class="">PH LEVEL OF SOIL</h1>
+            
+            <p id="ph-soil">   </p>
+
+
+    </div>
+</div>
+
+
+<div class="center5">
+    <div class="block1">
+        <br>
+        <h1 class="subb1">RATE OF WATER SUPPLIED IN PUMP</h1>   
+                     
+            <p id="temp"> NONE </p>
+            <br>          
+            <h1 class="subb1"></h1>
+        
+            <p id="hum">  </p>
+            
+
+
+    </div>
+</div>
+
+
+
+<script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/6.4.1/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.4.1/firebase-storage.js"></script>
+<script>
+
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBILJCrzjSaUu4_JvJ4wfF09tBNGZTU2d0",
+    authDomain: "kova-f5062.firebaseapp.com",
+    databaseURL: "https://kova-f5062.firebaseio.com",
+    projectId: "kova-f5062",
+    storageBucket: "kova-f5062.appspot.com",
+    messagingSenderId: "528724728411",
+    appId: "1:528724728411:web:7aa54bb32cef326b"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+  var temp_air_inside=document.getElementById('temp');
+  var temp_air_inside=document.getElementById('temp');
+  var temp_air_inside=document.getElementById('temp');
+  var temp_air_inside=document.getElementById('temp');
+  var temp_air_inside=document.getElementById('temp');
+  var temp_air_inside=document.getElementById('temp');
+  var temp_air_inside=document.getElementById('temp');
+ 
+  var fire_temp_air_inside= firebase.database().ref('test');
+
+ 
+  
+  
+  
+  //fire_temp_air_inside.on('value',snap => temp_air_inside.innerText = snap.val());
+  //dbref1.on('value',snap => bigone1.innerText = snap.val());
+
+
+
+
+
+  
+
+  
+</script>
+    
+
+
+
+
+ 
+            
+    
+    
+    
+    
+   
+       
+   
+
+
+</body>
+</html>

@@ -1,0 +1,253 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" type="text/css " href="dashboard.css"> </link>  
+   <link rel="stylesheet" type="text/css " href="livedata.css"> </link>  
+
+<style>
+
+
+  #myimg1{
+
+   background-size: auto;
+
+
+  }
+</style>
+
+   
+</head>
+<body class="background-dashboard">
+    
+        <div class="navigation-bar-dashboard-div">
+            <ul class="navigation-bar-dashboard">
+                    <li><a href="#">CONTACT</a> </li>
+                    <li><a href="#">ABOUT US</a> </li>
+                    <li><a href="dasboard.html">DASHBOARD</a> </li>
+                    <li class="home"><a href="index.html">HOME</a> </li>
+    
+               
+              
+                
+               
+    
+    
+    
+            </ul>
+        </div> 
+        <div>
+
+            <ul class="navigation-bar-dasboard-vertical">
+                    <li><a class ="livedata"href="livedata1.html">LIVE DATA</a> </li><!--class is added to live data to make it particular colour laways-->
+                    <li><a href="database.html">DATABASE</a> </li>
+                    <li><a href="#">PROCESSED IMAGES</a> </li>
+                    <li><a href="actuator.html">ACTUATOR STATUS</a> </li>
+                    <li><a href="dropbox.html">SEQUENCE EDITOR</a> </li>
+                    <li><a href="video monitoring.html">LIVE CAM</a> </li>
+
+
+
+
+            </ul>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+<div class="container">
+  <div class="imgc">
+
+      <img height="200" width="200" id="myimg" class="myimg"src=""/>
+  </div>
+  <div class="imgc1">
+
+      <img height="10" width="100" id="myimg1" class="myimg1"src=""/>
+  </div>
+  <div class="imgc2">
+
+      <img height="200" width="200" id="myimg2" class="myimg2"src=""/>
+  </div>
+  <div class="imgc3">
+
+    <img height="200" width="200" id="myimg3" class="myimg2"src=""/>
+</div>
+<div class="imgc4">
+
+  <img height="200" width="200" id="myimg4" class="myimg2"src=""/>
+</div>
+<div class="imgc5">
+
+  <img height="200" width="200" id="myimg5" class="myimg2"src=""/>
+</div>
+</div>
+  
+  
+        
+
+        <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
+
+        <!-- Add Firebase products that you want to use -->
+        <script src="https://www.gstatic.com/firebasejs/6.4.1/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-storage.js"></script>
+      <script>
+      
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyBILJCrzjSaUu4_JvJ4wfF09tBNGZTU2d0",
+          authDomain: "kova-f5062.firebaseapp.com",
+          databaseURL: "https://kova-f5062.firebaseio.com",
+          projectId: "kova-f5062",
+          storageBucket: "kova-f5062.appspot.com",
+          messagingSenderId: "528724728411",
+          appId: "1:528724728411:web:7aa54bb32cef326b"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        var storage = firebase.storage();
+        var storageRef = storage.ref('images/new.jpg');
+        var gsReference = storage.refFromURL('gs://kova-f5062.appspot.com/')
+        gsReference.child('images/cutworm.JPG').getDownloadURL().then(function(url) {
+  // `url` is the download URL for 'images/stars.jpg'
+
+  // This can be downloaded directly:
+        var xhr = new XMLHttpRequest();
+        xhr.responseType = 'blob';
+        xhr.onload = function(event) {
+         var blob = xhr.response;
+  };
+  xhr.open('GET', url);
+  xhr.send();
+
+  // Or inserted into an <img> element:
+  var img = document.getElementById('myimg');
+  img.src = url;
+}).catch(function(error) {
+  // Handle any errors
+});
+
+
+var gsReference = storage.refFromURL('gs://kova-f5062.appspot.com/')
+        gsReference.child('images/tomato.JPG').getDownloadURL().then(function(url) {
+  // `url` is the download URL for 'images/stars.jpg'
+
+  // This can be downloaded directly:
+        var xhr = new XMLHttpRequest();
+        xhr.responseType = 'blob';
+        xhr.onload = function(event) {
+         var blob = xhr.response;
+  };
+  xhr.open('GET', url);
+  xhr.send();
+
+  // Or inserted into an <img> element:
+  var img1 = document.getElementById('myimg1');
+  img1.src = url;
+}).catch(function(error) {
+  // Handle any errors
+});
+
+
+
+var gsReference = storage.refFromURL('gs://kova-f5062.appspot.com/')
+        gsReference.child('images/early blight leaf.JPG').getDownloadURL().then(function(url) {
+  // `url` is the download URL for 'images/stars.jpg'
+
+  // This can be downloaded directly:
+        var xhr = new XMLHttpRequest();
+        xhr.responseType = 'blob';
+        xhr.onload = function(event) {
+         var blob = xhr.response;
+  };
+  xhr.open('GET', url);
+  xhr.send();
+
+  // Or inserted into an <img> element:
+  var img2 = document.getElementById('myimg2');
+  img2.src = url;
+}).catch(function(error) {
+  // Handle any errors
+});
+
+
+
+var gsReference = storage.refFromURL('gs://kova-f5062.appspot.com/')
+        gsReference.child('images/imgs2.jpg').getDownloadURL().then(function(url) {
+  // `url` is the download URL for 'images/stars.jpg'
+
+  // This can be downloaded directly:
+        var xhr = new XMLHttpRequest();
+        xhr.responseType = 'blob';
+        xhr.onload = function(event) {
+         var blob = xhr.response;
+  };
+  xhr.open('GET', url);
+  xhr.send();
+
+  // Or inserted into an <img> element:
+  var img3 = document.getElementById('myimg3');
+  img3.src = url;
+}).catch(function(error) {
+  // Handle any errors
+});
+var gsReference = storage.refFromURL('gs://kova-f5062.appspot.com/')
+        gsReference.child('images/imgs.jpg').getDownloadURL().then(function(url) {
+  // `url` is the download URL for 'images/stars.jpg'
+
+  // This can be downloaded directly:
+        var xhr = new XMLHttpRequest();
+        xhr.responseType = 'blob';
+        xhr.onload = function(event) {
+         var blob = xhr.response;
+  };
+  xhr.open('GET', url);
+  xhr.send();
+
+  // Or inserted into an <img> element:
+  var img4 = document.getElementById('myimg4');
+  img4.src = url;
+}).catch(function(error) {
+  // Handle any errors
+});
+var gsReference = storage.refFromURL('gs://kova-f5062.appspot.com/')
+        gsReference.child('images/imgs3.jpg').getDownloadURL().then(function(url) {
+  // `url` is the download URL for 'images/stars.jpg'
+
+  // This can be downloaded directly:
+        var xhr = new XMLHttpRequest();
+        xhr.responseType = 'blob';
+        xhr.onload = function(event) {
+         var blob = xhr.response;
+  };
+  xhr.open('GET', url);
+  xhr.send();
+
+  // Or inserted into an <img> element:
+  var img5 = document.getElementById('myimg5');
+  img5.src = url;
+}).catch(function(error) {
+  // Handle any errors
+});
+
+
+
+
+
+
+        </script>
+        
+              
+           
+      
+      
+          </body>
+          </html>
+
+
+
+

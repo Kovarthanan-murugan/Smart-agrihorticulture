@@ -1,0 +1,149 @@
+.live-data-header{
+
+    text-align: center;
+    padding-left:500px;
+}
+.center{
+        height: 400px;
+		width: 400px;
+		background: #c0c5ce;
+		
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		top: 50%;
+		left: 50%;
+		margin-top: 40px;
+        margin-left: 500px;
+    
+     
+
+
+
+  }
+  .center1{
+    height: 400px;
+		width: 400px;
+		background: #c0c5ce;
+		
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		top: 50%;
+		left: 50%;
+		margin-top: -422px;
+        margin-left: 1000px;
+    
+     
+
+
+
+  }
+  .center2{
+    height: 400px;
+		width: 400px;
+		background: #c0c5ce;
+		
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		top: 50%;
+		left: 50%;
+		margin-top: 50px;
+    margin-left: 500px;
+    
+     
+
+
+
+  }
+  .center3{
+    height: 400px;
+		width: 400px;
+		background: #c0c5ce;
+		
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		top: 50%;
+		left: 50%;
+		margin-top: -400px;
+    margin-left: 1000px;
+    
+     
+
+
+
+  }
+  .center4{
+    height: 400px;
+		width: 400px;
+		background: #c0c5ce;
+		
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		top: 50%;
+		left: 50%;
+		margin-top: 50px;
+    margin-left: 500px;
+    
+     
+
+
+
+  }
+  
+  .center5{
+    height: 400px;
+		width: 400px;
+		background: #c0c5ce;
+		
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		top: 50%;
+		left: 50%;
+		margin-top: -400px;
+    margin-left: 1000px;
+    
+     
+
+
+
+  }
+  .center6{
+    height: 400px;
+		width: 400px;
+		background: #c0c5ce;
+		
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		top: 50%;
+		left: 50%;
+		margin-top: 50px;
+    margin-left: 700px;
+    
+     
+
+
+
+  }
+  
+  
+  
+  .block1
+  {
+    text-align: center;
+     
+
+
+  }
+  #temp-air,#hum-air,#temp-soil,#hum-soil,#water-soil,#water-source,#tds,#ph-water,#ph-soil,#temp,#temp-in,#hum-in,#water-rate{
+
+    font-size: 30px;
+    color:red;
+  }
+  #plant{
+
+    color:rebeccapurple;
+  }
+  #plant1,#plant2,#plant3,#plant4{
+
+    color:red;
+  }
+  @media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .menu, body, .navigation-bar,.center {
+      width:100%;
+      min-height:min-content;
+      
+    }
+  }

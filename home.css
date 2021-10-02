@@ -1,0 +1,68 @@
+
+
+.background{
+
+
+
+    background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url("background-image.jpg");/*for shadow effect of background image*/
+   background-size: cover;/*for responsive effect of page*/
+   background-position: center;/*to keep the image in center even if the window size changes*/
+   /*height: 100vh;*/
+
+    
+}
+
+.navigation-bar {/* css for navigation bar*/
+
+    float:right;
+    list-style: none;
+    margin-top: 20px;}
+.navigation-bar  li{
+
+display: inline-block;
+
+
+}
+.navigation-bar li a{ /* css for navigation bar text color*/
+    text-decoration: none;
+    color:#fff;
+    padding:5px 20px;
+    border:1px solid white transparent;
+    transition: 0.6s ease;
+
+
+}
+.navigation-bar li a:hover{ /* css for navigation bar hover effect*/
+    background-color: #fff;
+    color:#000;}
+    
+  
+.website-tittle { /*for farm today*/
+    
+    position: absolute;
+    top:50%;
+    left:50%;
+    color: #fff;
+    transform: translate(-50%,-50%);
+    
+    font-size: 50px;
+
+
+}        
+.background-dashboard{
+     
+   background-size: cover;/*for responsive effect of page*/
+   background-position: center;/*to keep the image in center even if the window size changes*/
+   /*height: 100vh;*/
+
+    
+}
+
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .menu, body, .navigation-bar {
+      width:100%;
+      min-height:min-content;
+      
+    }
+}

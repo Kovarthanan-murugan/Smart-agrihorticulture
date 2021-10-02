@@ -1,0 +1,98 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+table.c {
+  table-layout: auto;
+  width: 200%;  
+}
+
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+  
+	<h1 id="bigone"></h1>
+
+    <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/6.4.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-firestore.js"></script>
+    <script>
+
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyBILJCrzjSaUu4_JvJ4wfF09tBNGZTU2d0",
+          authDomain: "kova-f5062.firebaseapp.com",
+          databaseURL: "https://kova-f5062.firebaseio.com",
+          projectId: "kova-f5062",
+          storageBucket: "kova-f5062.appspot.com",
+          messagingSenderId: "528724728411",
+          appId: "1:528724728411:web:7aa54bb32cef326b"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        </script>
+  
+  
+  
+<script src="table.js"> </script>
+<!--<form>
+YEAR:<input type='text' name='year'  />
+MONTH:<input type='text' name='month' />
+DATE:<input type='text' name='date' />
+TIME:<input type='text' name='time' />
+LOCATION:<input type='text' name='location' />
+
+<input type='button' onclick="add()" value="Add new" />
+</form>-->
+<!--<table class="sum">
+  
+    <th>YEAR</th>
+    <th>MONTH</th>
+    <th>DATE</th>
+    <th>TIME</th>
+    <th>LOCATION</th>
+    <th>SENSOR NO</th>
+    <th>HUMIDITY-AIR</th>
+    <th>TEMPERATURE-AIR</th>
+    <th>TEMPERATURE-SOIL</th>
+    <th>WATER-SOIL</th>
+    <th>WATER-SOURCE</th>
+    <th>PH AMOUNT</th>
+    <th>TDS</th>
+ 
+
+  
+</table>-->
+
+<table class="c">
+    <tr>
+      
+    <th>YEAR</th>
+    <th>MONTH</th>
+    <th>DATE</th>
+    <th>TIME</th>
+    <th>LOCATION</th>
+    <th>SENSOR NO</th>
+    <th>HUMIDITY-AIR</th>
+    <th>TEMPERATURE-AIR</th>
+    </tr>
+    
+  </table>
+
+  
+</body>
+</html>

@@ -1,0 +1,377 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" type="text/css " href="dashboard.css"> </link>  
+
+    <style>
+        .switch {
+          position: relative;
+          display: inline-block;
+          width: 60px;
+          height: 34px;
+          margin-left: 50%;
+          margin-top:10%;
+        }
+        
+        .switch input { 
+          opacity: 0;
+          width: 0;
+          height: 0;
+        }
+        
+        .slider {
+          position: absolute;
+          cursor: pointer;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: red;
+          -webkit-transition: .4s;
+          transition: .4s;
+        }
+        
+        .slider:before {
+          position: absolute;
+          content: "";
+          height: 26px;
+          width: 26px;
+          left: 4px;
+          bottom: 4px;
+          background-color: white;
+          -webkit-transition: .4s;
+          transition: .4s;
+        }
+        
+        input:checked + .slider {
+          background-color: green;
+        }
+        
+        input:focus + .slider {
+          box-shadow: 0 0 1px #2196F3;
+        }
+        
+        input:checked + .slider:before {
+          -webkit-transform: translateX(26px);
+          -ms-transform: translateX(26px);
+          transform: translateX(26px);
+        }
+        
+        /* Rounded sliders */
+        .slider.round {
+          border-radius: 34px;
+        }
+        
+        .slider.round:before {
+          border-radius: 50%;
+        }
+
+
+
+
+        .switch1 {
+          position: relative;
+          display: inline-block;
+          width: 60px;
+          height: 34px;
+          margin-left: 50%;
+          margin-top:5%;
+        }
+        
+        .switch1 input { 
+          opacity: 0;
+          width: 0;
+          height: 0;
+        }
+        
+        .slider {
+          position: absolute;
+          cursor: pointer;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: red;
+          -webkit-transition: .4s;
+          transition: .4s;
+        }
+        
+        .slider:before {
+          position: absolute;
+          content: "";
+          height: 26px;
+          width: 26px;
+          left: 4px;
+          bottom: 4px;
+          background-color: white;
+          -webkit-transition: .4s;
+          transition: .4s;
+        }
+        
+        input:checked + .slider {
+          background-color: green;
+        }
+        
+        input:focus + .slider {
+          box-shadow: 0 0 1px #2196F3;
+        }
+        
+        input:checked + .slider:before {
+          -webkit-transform: translateX(26px);
+          -ms-transform: translateX(26px);
+          transform: translateX(26px);
+        }
+        
+        /* Rounded sliders */
+        .slider.round {
+          border-radius: 34px;
+        }
+        
+        .slider.round:before {
+          border-radius: 50%;
+        }
+
+
+        .switch2 {
+          position: relative;
+          display: inline-block;
+          width: 60px;
+          height: 34px;
+          margin-left: 50%;
+          margin-top:-3%;
+        }
+        
+        .switch2 input { 
+          opacity: 0;
+          width: 0;
+          height: 0;
+        }
+        
+        .slider {
+          position: absolute;
+          cursor: pointer;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: red;
+          -webkit-transition: .4s;
+          transition: .4s;
+        }
+        
+        .slider:before {
+          position: absolute;
+          content: "";
+          height: 26px;
+          width: 26px;
+          left: 4px;
+          bottom: 4px;
+          background-color: white;
+          -webkit-transition: .4s;
+          transition: .4s;
+        }
+        
+        input:checked + .slider {
+          background-color: green;
+        }
+        
+        input:focus + .slider {
+          box-shadow: 0 0 1px #2196F3;
+        }
+        
+        input:checked + .slider:before {
+          -webkit-transform: translateX(26px);
+          -ms-transform: translateX(26px);
+          transform: translateX(26px);
+        }
+        
+        /* Rounded sliders */
+        .slider.round {
+          border-radius: 34px;
+        }
+        
+        .slider.round:before {
+          border-radius: 50%;
+        }
+
+        .switch3 {
+          position: relative;
+          display: inline-block;
+          width: 60px;
+          height: 34px;
+          margin-left: 50%;
+          margin-top:-3%;
+        }
+        
+        .switch3 input { 
+          opacity: 0;
+          width: 0;
+          height: 0;
+        }
+        
+        .slider {
+          position: absolute;
+          cursor: pointer;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: red;
+          -webkit-transition: .4s;
+          transition: .4s;
+        }
+        
+        .slider:before {
+          position: absolute;
+          content: "";
+          height: 26px;
+          width: 26px;
+          left: 4px;
+          bottom: 4px;
+          background-color: white;
+          -webkit-transition: .4s;
+          transition: .4s;
+        }
+        
+        input:checked + .slider {
+          background-color: green;
+        }
+        
+        input:focus + .slider {
+          box-shadow: 0 0 1px #2196F3;
+        }
+        
+        input:checked + .slider:before {
+          -webkit-transform: translateX(26px);
+          -ms-transform: translateX(26px);
+          transform: translateX(26px);
+        }
+        
+        /* Rounded sliders */
+        .slider.round {
+          border-radius: 34px;
+        }
+        
+        .slider.round:before {
+          border-radius: 50%;
+        }
+        .temp{
+
+
+            margin-top:3%;
+            margin-left:25%;
+            
+        }
+        .head{
+
+
+            margin-top:-15%;
+            margin-left:60%;
+        }
+        .hum{
+           
+            margin-top:5.5%;
+            margin-left:25%;
+            font-style: bold;
+            font-family: Arial, Helvetica, sans-serif;
+
+
+
+
+        }
+        .water{
+            margin-top:3%;
+            margin-left:25%;
+            font-style: bold;
+            font-family: Arial, Helvetica, sans-serif;
+
+
+
+        }
+        .ventilation{
+
+            margin-top:3%;
+            margin-left:25%;
+            font-style: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        </style>
+
+
+</head>
+<body class="background-dashboard">
+    
+        <div class="navigation-bar-dashboard-div">
+            <ul class="navigation-bar-dashboard">
+                    <li><a href="#">CONTACT</a> </li>
+                    <li><a href="#">ABOUT US</a> </li>
+                    <li><a href="dasboard.html">DASHBOARD</a> </li>
+                    <li class="home"><a href="index.html">HOME</a> </li>
+    
+               
+              
+                
+               
+    
+    
+    
+            </ul>
+        </div> 
+    
+
+            <ul class="navigation-bar-dasboard-vertical">
+                    <li><a class ="livedata"href="livedata1.html">LIVE DATA</a> </li><!--class is added to live data to make it particular colour laways-->
+                    <li><a href="database.html">DATABASE</a> </li>
+                    <li><a href="image.html">PROCESSED IMAGES</a> </li>
+                    <li><a href="actuator.html">ACTUATOR STATUS</a> </li>
+                    <li><a href="dropbox.html">SEQUENCE EDITOR</a> </li>
+                    <li><a href="video monitoring.html">LIVE CAM</a> </li>
+                    
+
+
+
+
+            </ul>
+
+
+ 
+            
+    
+    
+    
+    
+            <label class="switch">
+                <input type="checkbox" checked>
+                <span class="slider round"></span>
+              </label>
+              <label class="switch1" >
+                <input type="checkbox" checked>
+                <span class="slider round"></span>
+              </label>
+              
+
+
+              <h1 class="head">MANUAL CONTROLS</h1>
+       
+              <h1 class="temp">Temperature heater</h1>
+              <h1 class="hum">HUMIDITY RISER</h1>
+              <br>
+              <h1 class="water">WATER</h1>
+              <label class="switch2" >
+                <input type="checkbox" checked>
+                <span class="slider round"></span>
+              </label>
+              <h1 class="ventilation">VENTILATION</h1>
+              
+              <label class="switch3" >
+                <input type="checkbox" checked>
+                <span class="slider round"></span>
+              </label>
+
+
+</body>
+</html>
