@@ -1,0 +1,286 @@
+.background-dashboard{
+
+
+
+    
+   background-size: cover;/*for responsive effect of page*/
+   background-position: center;/*to keep the image in center even if the window size changes*/
+   /*height: 100vh;*/
+
+    
+}
+
+
+
+
+
+
+.navigation-bar-dashboard {/* css for navigation bar dashboard*/
+
+    margin: -10px;
+    position: fixed;
+    width:100%;
+
+    padding: 15px;
+    overflow: hidden;
+    list-style: none;
+   
+    background-color: #4CAF50;
+    
+  
+    
+
+}
+.navigation-bar-dashboard  li{
+    float: right;
+
+    
+  
+ 
+  
+
+
+} 
+.navigation-bar-dashboard li a{ /* css for navigation bar text color dashboard*/
+    text-decoration: none;
+    color:white;
+    padding: 14px 16px;
+    border:1px solid white transparent;
+    transition: 0.6s ease;
+
+
+}
+.navigation-bar-dashboard li a:hover, .navigation-bar-dasboard-vertical li a:hover{ /* css for navigation bar hover effect dashboard*//*.navigation-bar-dasboard-vertical li a:hover used for over of vertical list*/
+    background-color: #fff;
+    color:#000;}
+
+
+
+    /*start of vertical css settings*/
+
+.navigation-bar-dasboard-vertical
+
+{
+    list-style-type:none;
+    margin-top: 40px;
+    margin-left: -6px;
+    padding: 0;
+    width:15%;
+    background-color:#1b8c87;
+    border: 1000 px;
+    border-color: red;
+    position:fixed;
+    height:100%;
+    overflow: hidden;
+    
+    
+    
+        
+          
+
+} 
+.navigation-bar-dasboard-vertical li a{
+    display: block;
+    color:white;
+    padding:8px 16px ;
+    text-decoration: none;/*mst add to remove a underscore decoretion in the list*/
+}
+/*.navigation-bar-dasboard-vertical li a.livedata{
+
+
+   
+} for highliting the single bar*/
+.navigation-bar-dasboard-vertical li a:hover:not(.active){
+
+    background-color:white;
+    color:black;
+
+}
+
+
+#video1{
+
+  width:80%;
+
+  height:80%;
+ 
+  
+
+    padding-left: 450px;
+}
+
+
+/*
+.imgc{
+  margin-left: 20%;
+  
+  
+
+
+}
+.imgc1{
+  margin-left: 40%;
+   margin-top: -200px;
+
+
+}
+.imgc2{
+  margin-left:0%;
+  margin-top:-200px;
+
+
+
+}
+.imgc3{
+  margin-left: 35%;
+  margin-top:100px;
+
+
+
+}
+.imgc4{
+  margin-left: 55%;
+  margin-top:-200px;
+
+
+
+}
+
+.imgc5{
+  margin-left: 75%;
+  margin-top:-200px;
+
+
+
+}
+
+.myimg{
+  width: auto;
+  height:auto;
+
+
+}
+
+.myimg1{
+  width: auto;
+  height:auto;
+
+
+}
+
+.myimg2{
+  width: auto;
+  height:auto;
+
+}
+*/
+.container >div>img{  
+  margin-left: 20%;
+  margin-right: 0%;
+  position: center;
+  padding: 2%;
+  width: 80%;  
+  height: 100%;  
+  object-fit: cover;  
+}
+/*
+.myimg3{
+  width: 40%;
+  height:auto;
+
+
+}
+.myimg4{
+  width: 40%;
+  height:auto;
+
+
+}*/
+
+
+
+
+    /*end of vertical css settings*/
+/*.imgc{
+    border-style: solid;
+  border-width: 5px;
+    
+  margin-left: 500px;
+  margin-top: 400px;
+  
+  
+  
+  
+  width:300px;
+  height: 50px;
+ 
+
+
+
+  }
+  .imgc1{
+    border-style: solid;
+  border-width: 5px;
+  margin-left:800px;
+  margin-right:px;
+  
+  height: 250px;
+  
+  
+
+
+
+  }
+  .imgc2{
+    border-style: solid;
+  border-width: 5px;
+  margin-left:400px;
+  margin-right:px;
+  
+  width:300px;
+  height: 250px;
+  
+
+
+
+  }
+  .myimg{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+ 
+  width:299px;
+  height:249px;
+
+
+  }
+  .myimg1{
+    display: block;
+ 
+  width:299px;
+  height:249px;
+  padding-left:px;
+  padding-bottom: 600px;
+
+
+  }
+  .myimg2{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:299px;
+  height:249px;
+
+
+  }
+  .myimg3{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:299px;
+  height:249px;
+
+
+  }
+*/    
