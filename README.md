@@ -72,12 +72,11 @@ Most agricultural food production in the modern day is performed in large scale,
 
 The basic building blocks of an IoT System are Sensors, Processors and applications. So the block diagram below is the proposed model of our project which shows the interconnection of these blocks. The sensors are interfaced with Microcontroller, data from the sensor is displayed on the web application of the user. Web application provides an access to the continuous data from sensors and accordingly helps farmer to take action to fulfil the requirements of the soil.
 
-![image](https://user-images.githubusercontent.com/90558927/149665703-c7e7cbc5-8bf1-4bd2-a273-a13cc3697c86.png)
+
  
 **Work Flow**
 
-![image](https://user-images.githubusercontent.com/90558927/149665690-3d2fcff7-bad5-4505-8f2c-60e8b435a66c.png)
-
+![image](https://user-images.githubusercontent.com/90558927/149665703-c7e7cbc5-8bf1-4bd2-a273-a13cc3697c86.png)
 
 When the data of different sensors that are humidity, temperature, soil moisture and location is acquired it is sent to the mobile app of the user and if the water content in the soil is less than the cut off value then an alert message is received on the app of the user and motor gets switched on automatically using relay.
 
