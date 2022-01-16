@@ -13,14 +13,14 @@ IoT has changed today’s world. Smart cities, smart car, smart homes everything
 •	Network connection- For communication, internet connectivity is necessary where each physical object is assigned by an IP address. A network connection is built between the devices with the help of these address.
 Technology today has not reached its 100% capability. So, the advantages and disadvantages of this technology are given below-
 
-Advantages of IoT
+**Advantages of IoT**
 
 •	Utilization of Resources Efficiently
 •	Minimization of Human Efforts
 •	Time-saving
 •	Increase Data Collection
 
-Disadvantages of IoT
+**Disadvantages of IoT**
 
 •	Security
 •	Privacy
@@ -28,8 +28,7 @@ Disadvantages of IoT
                                      
 
 
-**IoT in Agriculture
-**
+**IoT in Agriculture**
 
 Internet of Things has capacity to transform the lives of people in the world in an efficient manner. The ever-growing population would touch more than 3 billion in few years. So, to feed such an immense population, agriculture industry need to embrace IoT. The demand for more food has to address challenges that include excessive climate conditions, weather change and different environmental affects that results from farming practices.
 
@@ -52,8 +51,9 @@ IoT is viewed as an important segment for smart farming because with precise use
 By the use of IoT creations expenses could be diminished to an astounding dimension that would thus expand productivity and survivability.
 By the use of IoT efficiency level would be further expanded as far as utilization of water, soil, fertilizers, pesticides etc.
 
-**Applications of IoT in Agriculture
-**•	Precision farming
+**Applications of IoT in Agriculture**
+
+•	Precision farming
 •	Agricultural drones
 •	Livestock monitoring
 •	Smart greenhouses
@@ -73,21 +73,10 @@ Most agricultural food production in the modern day is performed in large scale,
 The basic building blocks of an IoT System are Sensors, Processors and applications. So the block diagram below is the proposed model of our project which shows the interconnection of these blocks. The sensors are interfaced with Microcontroller, data from the sensor is displayed on the web application of the user. Web application provides an access to the continuous data from sensors and accordingly helps farmer to take action to fulfil the requirements of the soil.
 
 ![image](https://user-images.githubusercontent.com/90558927/149665703-c7e7cbc5-8bf1-4bd2-a273-a13cc3697c86.png)
-
  
-
-
-
-
- 
-**Work Flow
-**
+**Work Flow**
 
 ![image](https://user-images.githubusercontent.com/90558927/149665690-3d2fcff7-bad5-4505-8f2c-60e8b435a66c.png)
-
-
-
-
 
 
 When the data of different sensors that are humidity, temperature, soil moisture and location is acquired it is sent to the mobile app of the user and if the water content in the soil is less than the cut off value then an alert message is received on the app of the user and motor gets switched on automatically using relay.
@@ -146,7 +135,7 @@ When the user request for the pest images the webapp will retrieve the images fr
 
  
                   
-Technologies used: 
+**Technologies used: **
  
 The HyperText Markup Language, or HTML(HyperText Markup Language) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
 Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. 
@@ -154,7 +143,7 @@ Web browsers receive HTML documents from a web server or from local storage and 
 HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
 HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page.
  HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. 
-Tags such as <img /> and <input /> directly introduce content into the page. Other tags such as <p> surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.
+
 
 
 **CSS**
@@ -184,12 +173,13 @@ Javascript can be used to:
 •	Logging data about the user's behavior then sending it to a server. The website owner can use this data for analytics, ad tracking, and personalization.
 •	Redirecting a user to another page. 
   
-**Realtime Database:
-**Store and sync data with our NoSQL cloud database. Data is synced across all clients in realtime and remains available when your app goes offline. Firebase Realtime Database is a cloud-hosted database. Data is stored as JSON and synchronized in realtime to every connected client.
+**Realtime Database:**
+
+Store and sync data with our NoSQL cloud database. Data is synced across all clients in realtime and remains available when your app goes offline. Firebase Realtime Database is a cloud-hosted database. Data is stored as JSON and synchronized in realtime to every connected client.
 
 ![image](https://user-images.githubusercontent.com/90558927/149665591-36fd20f7-699f-4b7c-8612-d9ad046c568e.png)
   
- ** Arduino Ide (Integrated Development Environment)**
+ **Arduino** Ide (Integrated Development Environment)
   
 Arduino IDE is an open-source programming which is basically used to write & compile code using a module that is Arduino. This is an official programming software which makes compiling of code simple so a typical man can understand the learning procedure. 
 
