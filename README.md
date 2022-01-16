@@ -1,7 +1,8 @@
 # Smart-agrihorticulture
-[![Watch the video](velan.png)](https://youtu.be/xqOrc_fFzYg)
+
 
 Internet of Things (IoT) is the interconnection or network of physical devices that is interrelated computing devices, digital and mechanical machines, people or animals, objects that can sense, accumulate and transfer data over web without any human involvement. Everything is provided with unique identifier. It is a progressed examination and mechanized frameworks which uses detecting, organizing, enormous information and man-made consciousness innovation to convey total framework for an administration. Basically, IoT is about extending the power of internet beyond smart phones and computers.
+[![Watch the video](velan.png)](https://youtu.be/xqOrc_fFzYg)
 
 IoT has changed today’s world. Smart cities, smart car, smart homes everything around us can be turned into a smart device with the help of IoT. It also has applications in agriculture, business sectors, healthcare, transport and logistics.
 
